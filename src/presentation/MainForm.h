@@ -1,10 +1,10 @@
 ﻿#pragma once
-#include "src/framework/StringConverterHelper.h"
+#include "../framework/StringConverterHelper.h"
 #include <vector>
-#include "src/dto/ElementConcentrationPoint.h"
-#include "src/validation/InputDataValidator.h"
-#include "src/CoefficientsCalculator.h"
-#include "src/ChartGenerator.h"
+#include "../dto/ElementConcentrationPoint.h"
+#include "../validation/InputDataValidator.h"
+#include "../CoefficientsCalculator.h"
+#include "../ChartGenerator.h"
 #include <cmath>
 
 namespace CppCLRWinFormsProject {
