@@ -7,7 +7,7 @@ using namespace System;
 //    return 0;
 // }
 
-#include "Form1.h"
+#include "MainForm.h"
 
 using namespace System::Windows::Forms;
 
