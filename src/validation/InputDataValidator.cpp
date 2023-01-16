@@ -18,7 +18,7 @@ ValidationResult InputDataValidator::validate(std::vector<ElementConcentrationPo
     if (A[0].concentration <= 0.0) {
         return ValidationResult(false, "Invalid A[0] concentration: should be more than 0");
     }
-    if (A[0].time <= 0.0) {
+    if (A[0].time < 0.0) {
         return ValidationResult(false, "Invalid A[0] time: should not be negative");
     }
 
