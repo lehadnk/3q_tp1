@@ -56,6 +56,9 @@
     <ClInclude Include="src\framework\StringConverterHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\presentation\MainForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppCLR_WinFormsProject.cpp">
@@ -80,6 +83,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\framework\StringConverterHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\presentation\MainForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
